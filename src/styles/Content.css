@@ -1,0 +1,78 @@
+.isi1 {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.isi2 {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.produk {
+    background-color: #333;
+    color: white
+}
+
+.isi1,
+.isi2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.prodh1 {
+    padding: 20px;
+}
+
+.produk {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tables {
+    display: flex;
+    justify-content: center;
+}
+
+.tables ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.tables ul li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.isikotak{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.kotak1,.kotak2,.kotak3 {
+    text-align: center;
+}
+
+.isikotak{
+    transition: transform 0.3s ease;
+    margin-top: -70px;
+}
